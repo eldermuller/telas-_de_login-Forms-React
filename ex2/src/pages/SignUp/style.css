@@ -1,0 +1,150 @@
+.container{
+    display: flex;
+
+    font-family: 'Roboto', sans-serif;
+
+    height: 100vh;
+
+}
+
+.container-login{
+    width: 64%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-login h1{
+
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+
+    color: #000000;
+
+    margin-bottom: 32px;
+}
+
+.container-inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap:16px;
+
+    padding-bottom: 72px;
+
+}
+
+.container-inputs input{
+    width: 476px;
+    height: 51px;
+
+    color:#968B8B;
+    font-size: 16px;
+
+    padding: 16px;
+}
+
+button{
+    all:unset;
+
+    width: 476px;
+    height: 51px;
+    border-radius: 8px;
+
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+.input-password{
+    position: relative;
+}
+
+.eye-icon{
+    width: 28px;
+    height: 19px;
+
+    position: absolute;
+    right: 16px;
+    top:16px;
+
+    cursor: pointer;
+}
+
+.div-span{
+   position: absolute;
+   top: 330px;
+}
+
+.div-span span{  
+    font-size: 12px;
+    color: #E24242;
+}
+
+.btn-login{
+    background-color:  #2A4D77;
+    margin-bottom: 8px;
+}
+
+.btn-cancel{
+    background-color:#fb0615a6;
+    margin-bottom: 155px;
+}
+
+span{
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+}
+
+a{
+    cursor: pointer;
+}
+
+.div-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-image img{
+    width: 640px;
+    height: 100vh;
+}
+
+.div-success{
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-success img{
+    width: 479px;
+}
+
+.div-success strong{
+    font-size: 26px;
+    text-align: center;
+    
+    color: #0B2F49;
+}
+
